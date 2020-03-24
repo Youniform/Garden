@@ -3,7 +3,7 @@
 .outer-container {
 	width:100%;
 	height:auto;
-	position:relevant;
+	position:absolute;
 	padding:5px;
 	margin:5px;
 }
@@ -11,7 +11,8 @@
 .header {
 	font-size:20px;
 	color:#333;
-	text-align:center;
+	text-align:right;
+	padding-right:20pt;
 }
 
 .container-small {
@@ -22,6 +23,11 @@
 	box-type:border-box;
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
+	display:block;
+	position:absolute;
+	z-index:1;
+	left:0;
+	top:25pt;
 }
 
 .container-med { 
@@ -32,6 +38,11 @@
 	box-type:border-box;
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
+	display:block;
+	position:absolute;
+	z-index:2;
+	left:70pt;
+	top:25pt;
 }
 
 .container-large {
@@ -42,6 +53,13 @@
 	box-type:border-box;
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
+	display:block;
+	position:absolute;
+	background-color:#fff;
+	color:#fff;
+	z-index:3;
+	left:150pt;
+	top:25pt;
 }
 
 .responsive-img {
@@ -64,7 +82,7 @@
 	height:5px;
 	margin-top:5pt;
 	margin-bottom:5pt;
-	background:black;
+	background:#fff;
 	position:relative;
 }
 
@@ -79,11 +97,11 @@
 
 .profile {
 	position:fixed;
-	width:100pt;
-	height:25pt;
+	width:150pt;
+	height:50pt;
 	border:1px solid black;
-	top:5pt;
-	left:5pt;
+	top:400pt;
+	left:300pt;
 	color: brown;
 	background:#fff;
 	text-align:center;
@@ -92,9 +110,32 @@
 	box-type:border-box;
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
-	content:"Default";
+}
+.profile p::after {
+	content:"Number-Two";
+	position:absolute;
+	line-height:15pt;
+	color:#333;
+	left:0;
+	text-align:center;
+	width:100%;
+	font-size:20pt;
 }
 
+.container-large .container-small {
+	border:1px solid #fff;
+}
+
+#specific-biggest-inner::after {
+	width:100%;
+	height:50pt;
+	position:absolute;
+	content:"LG";
+	color:#333;
+	font-size:50pt;
+	top:0;
+	left:0;
+}
 .little-font {
 	font-size: 7pt;
 }
@@ -104,6 +145,7 @@
 	vertical-align:center;
 	justify-content:center;
 	background-color:#fff;
+	border:1px solid #fff;
 }
 
 #second-specific-outer
@@ -113,16 +155,38 @@
 	justify-content:center;
 	align-items:center;
 	padding:0;
-	background-image: radial-gradient(red, yellow, green);
+	background-color:#fff;
+	color:#fff;
+}
+
+#second-specific-inner::after {
+	content:"MED";
+	color:#333;
+	font-size:24pt;
+	width:100%;
+	height:30pt;
+	left:0;
+	position:absolute;
 }
 
 #third-specific {
 	font-family:sans-serif;
-	color:grey;
-	background:black;
+	color:#fff;
+	background:#fff;
 	text-align:center;
 	-webkit-transition: -webkit-transform .8s ease-in-out;
     transition:         transform .8s ease-in-out;
+}
+#third-specific::after {
+	content:"SM";
+	height:20pt;
+	width:100%;
+	font-size:20pt;
+	left:0;
+	top:0;
+	position:absolute;
+	color:#333;
+	text-align:left;
 }
 
 #third-specific:hover, #third-specific:focus {
