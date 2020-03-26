@@ -95,6 +95,18 @@
 	content:"Default";
 }
 
+.profile p::after {
+	width:100%;
+	height:20pt;
+	font-size:20;
+	color:brown;
+	content:"Default";
+	position:absolute;
+	top:3pt;
+	left:0;
+
+}
+
 .little-font {
 	font-size: 7pt;
 }
