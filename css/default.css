@@ -1,9 +1,17 @@
 /* css/default.css */
 
+* {
+	font-family:sans-serif;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+
 .outer-container {
 	width:100%;
 	height:auto;
-	position:relevant;
+	position:relative;
 	padding:5px;
 	margin:5px;
 }
@@ -12,6 +20,75 @@
 	font-size:20px;
 	color:#333;
 	text-align:center;
+}
+
+.profile-list {
+	width:150pt;
+	height:auto;
+	padding:10pt;
+	position:fixed;
+	background:#fff;
+	z-index:5;
+	display:block;
+	right:20pt;
+	top:150pt;
+	border: 2px solid #333;
+}
+
+#default {
+	background:brown;
+	color:#fff;
+}
+
+#default:hover {
+	background:#fff;
+	color:brown;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+
+#number-two:hover {
+	width:150pt;
+	background:#333;
+	color:#fff;
+}
+
+#ellipses {
+	color:#D291BC;
+}
+
+#ellipses:hover {
+	background:#D291BC;
+	color:#fff;
+	border-radius:50%;
+	border:#D291BC;
+}
+
+.profile-list a {
+	text-decoration:none;
+	color:#333;
+}
+
+#profile-ul {
+	list-style-type:none;
+	width:100%;
+	display:flex;
+	margin:0 auto;
+	flex-direction:column;
+	align-items: center;
+}
+
+#profile-ul li {
+	height:50pt;
+	width:50pt;
+	border:1px solid #333;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	margin-top:5pt;
+	padding:5pt;
 }
 
 .container-small {
@@ -146,4 +223,19 @@
 	height:10pt;
 	display:block;
 	position:relative;
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
