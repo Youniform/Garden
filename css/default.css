@@ -76,6 +76,12 @@ ul, li{
 	margin:0 auto;
 	flex-direction:column;
 	align-items: center;
+	height:0;
+	overflow:hidden;
+}
+
+.profile-list:hover > #profile-ul {
+	height:auto;
 }
 
 #profile-ul li {
@@ -225,6 +231,15 @@ ul, li{
 	position:relative;
 }
 
+.blink {
+  animation: blinker 5s linear 2;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
