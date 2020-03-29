@@ -1,4 +1,9 @@
-/* css/default.css */
+/* css/number-two.css */
+
+ul li, ul a li, ul {
+	padding:0;
+	margin:0;
+}
 
 .outer-container {
 	width:100%;
@@ -90,8 +95,7 @@
 	margin:0 auto;
 }
 
-.text-center
-{
+.text-center {
 	text-align:center;
 }
 
@@ -100,8 +104,8 @@
 	width:150pt;
 	height:50pt;
 	border:1px solid black;
-	top:400pt;
-	left:300pt;
+	top:50pt;
+	right:50pt;
 	color: brown;
 	background:#fff;
 	text-align:center;
@@ -111,6 +115,7 @@
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
 }
+
 .profile p::after {
 	content:"Number-Two";
 	position:absolute;
@@ -122,6 +127,112 @@
 	font-size:20pt;
 }
 
+.profile-list {
+	position:absolute;
+	top:320pt;
+	left:50pt;
+	border:2px solid black;
+	min-width:200pt;
+	height:100pt;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	z-index:10;
+	left:20pt;
+}
+
+.profile-list:hover {
+	background-color:#333;
+	color:#fff;
+}
+
+.profile-list h4 {
+	display:flex;
+	align-self:flex-start;
+	top:-14pt;
+	position:absolute;
+}
+
+#profile-ul {
+	position:absolute;
+	list-style-type: none;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-flow:row wrap;
+	min-width:150pt;
+	height:65pt;
+	left:25pt;
+	top:20pt;
+}
+
+#profile-ul a {
+	text-decoration: none;
+}
+
+#profile-ul a li {
+	display:inline-block;
+	width:50pt;
+	height:50pt;
+	border:1px solid black;
+	padding:5pt;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-flow: row wrap;
+	text-align: center;
+	color:#333;
+	box-type:border-box;
+	-webkit-box-type:border-box;
+	-moz-box-type:border-box;
+	-webkit-transition: -webkit-transform 1s;
+    transition: transform 1s;
+}
+
+#profile-ul a li:hover {
+	z-index:10;
+	transform: translate(20px, 20px);
+}
+
+#default {
+	position:absolute;
+	z-index:1;
+	left:0;
+	top:0;
+	background-color:#fff;
+}
+
+#number-two {
+	position:absolute;
+	z-index:2;
+	top:0;
+	left:20pt;
+	background-color:#fff;
+}
+
+#ellipses {
+	position:absolute;
+	z-index:3;
+	top:0;
+	left:40pt;
+	background-color:#fff;
+}
+
+#fourth {
+	position:absolute;
+	z-index:4;
+	top:0;
+	left:60pt;
+	background-color:#fff;
+}
+
+#fifth {
+	position:absolute;
+	z-index:5;
+	top:0;
+	left:80pt;
+	background-color:#fff;
+}
 .container-large .container-small {
 	border:1px solid #fff;
 }
@@ -136,6 +247,7 @@
 	top:0;
 	left:0;
 }
+
 .little-font {
 	font-size: 7pt;
 }
@@ -175,8 +287,9 @@
 	background:#fff;
 	text-align:center;
 	-webkit-transition: -webkit-transform .8s ease-in-out;
-    transition:         transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
 }
+
 #third-specific::after {
 	content:"SM";
 	height:20pt;
@@ -196,9 +309,11 @@
 	-webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+
 #third-specific span {
 	opacity:0;
 }
+
 #third-specific:hover > span, #third-specific:focus > span {
 	opacity:1;
 	color:orange;
@@ -211,4 +326,159 @@
 	height:10pt;
 	display:block;
 	position:relative;
+}
+
+@media screen and (max-width: 768px) {
+	
+	body {
+		background:green;
+	}
+
+	#profile-ul {
+		space-between:10px;
+	}
+	#profile-ul a li {
+		display:relative;		
+		z-index:1;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
