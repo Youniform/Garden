@@ -17,13 +17,13 @@ ul li, ul a li, ul {
 	font-size:20px;
 	color:#333;
 	text-align:right;
-	padding-right:20pt;
+	padding-right:20px;
 }
 
 .container-small {
-	width: 100pt;
-	height:100pt;
-	padding:3pt;
+	width: 100px;
+	height:100px;
+	padding:3px;
 	border:1px solid black;
 	box-type:border-box;
 	-webkit-box-type:border-box;
@@ -32,13 +32,13 @@ ul li, ul a li, ul {
 	position:absolute;
 	z-index:1;
 	left:0;
-	top:25pt;
+	top:25px;
 }
 
 .container-med { 
-	width:200pt;
-	height:200pt;
-	padding:7pt;
+	width:200px;
+	height:200px;
+	padding:7px;
 	border:2px solid black;
 	box-type:border-box;
 	-webkit-box-type:border-box;
@@ -46,15 +46,15 @@ ul li, ul a li, ul {
 	display:block;
 	position:absolute;
 	z-index:2;
-	left:70pt;
-	top:25pt;
+	left:70px;
+	top:25px;
 }
 
 .container-large {
-	width:250pt;
-	height:250pt;
+	width:250px;
+	height:250px;
 	border:3px solid black;
-	padding:10pt;
+	padding:10px;
 	box-type:border-box;
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
@@ -63,8 +63,8 @@ ul li, ul a li, ul {
 	background-color:#fff;
 	color:#fff;
 	z-index:3;
-	left:150pt;
-	top:25pt;
+	left:150px;
+	top:25px;
 }
 
 .responsive-img {
@@ -85,8 +85,8 @@ ul li, ul a li, ul {
 .break {
 	width:100%;
 	height:5px;
-	margin-top:5pt;
-	margin-bottom:5pt;
+	margin-top:5px;
+	margin-bottom:5px;
 	background:#fff;
 	position:relative;
 }
@@ -101,11 +101,11 @@ ul li, ul a li, ul {
 
 .profile {
 	position:fixed;
-	width:150pt;
-	height:50pt;
+	width:150px;
+	height:50px;
 	border:1px solid black;
-	top:50pt;
-	right:50pt;
+	top:50px;
+	right:50px;
 	color: brown;
 	background:#fff;
 	text-align:center;
@@ -119,26 +119,26 @@ ul li, ul a li, ul {
 .profile p::after {
 	content:"Number-Two";
 	position:absolute;
-	line-height:15pt;
+	line-height:15px;
 	color:#333;
 	left:0;
 	text-align:center;
 	width:100%;
-	font-size:20pt;
+	font-size:20px;
 }
 
 .profile-list {
 	position:absolute;
-	top:320pt;
-	left:50pt;
+	top:320px;
+	left:50px;
 	border:2px solid black;
-	min-width:200pt;
-	height:100pt;
+	min-width:200px;
+	height:100px;
 	display:flex;
 	align-items: center;
 	justify-content: center;
 	z-index:10;
-	left:20pt;
+	left:20px;
 }
 
 .profile-list:hover {
@@ -149,7 +149,7 @@ ul li, ul a li, ul {
 .profile-list h4 {
 	display:flex;
 	align-self:flex-start;
-	top:-14pt;
+	top:-14px;
 	position:absolute;
 }
 
@@ -160,10 +160,10 @@ ul li, ul a li, ul {
 	align-items:center;
 	justify-content:center;
 	flex-flow:row wrap;
-	min-width:150pt;
-	height:65pt;
-	left:25pt;
-	top:20pt;
+	min-width:150px;
+	height:65px;
+	left:25px;
+	top:20px;
 }
 
 #profile-ul a {
@@ -172,10 +172,10 @@ ul li, ul a li, ul {
 
 #profile-ul a li {
 	display:inline-block;
-	width:50pt;
-	height:50pt;
+	width:50px;
+	height:50px;
 	border:1px solid black;
-	padding:5pt;
+	padding:5px;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -206,7 +206,7 @@ ul li, ul a li, ul {
 	position:absolute;
 	z-index:2;
 	top:0;
-	left:20pt;
+	left:20px;
 	background-color:#fff;
 }
 
@@ -214,7 +214,7 @@ ul li, ul a li, ul {
 	position:absolute;
 	z-index:3;
 	top:0;
-	left:40pt;
+	left:40px;
 	background-color:#fff;
 }
 
@@ -222,7 +222,7 @@ ul li, ul a li, ul {
 	position:absolute;
 	z-index:4;
 	top:0;
-	left:60pt;
+	left:60px;
 	background-color:#fff;
 }
 
@@ -230,7 +230,7 @@ ul li, ul a li, ul {
 	position:absolute;
 	z-index:5;
 	top:0;
-	left:80pt;
+	left:80px;
 	background-color:#fff;
 }
 .container-large .container-small {
@@ -239,17 +239,17 @@ ul li, ul a li, ul {
 
 #specific-biggest-inner::after {
 	width:100%;
-	height:50pt;
+	height:50px;
 	position:absolute;
 	content:"LG";
 	color:#333;
-	font-size:50pt;
+	font-size:50px;
 	top:0;
 	left:0;
 }
 
 .little-font {
-	font-size: 7pt;
+	font-size: 7px;
 }
 
 #second-specific-inner {
@@ -274,9 +274,9 @@ ul li, ul a li, ul {
 #second-specific-inner::after {
 	content:"MED";
 	color:#333;
-	font-size:24pt;
+	font-size:24px;
 	width:100%;
-	height:30pt;
+	height:30px;
 	left:0;
 	position:absolute;
 }
@@ -292,9 +292,9 @@ ul li, ul a li, ul {
 
 #third-specific::after {
 	content:"SM";
-	height:20pt;
+	height:20px;
 	width:100%;
-	font-size:20pt;
+	font-size:20px;
 	left:0;
 	top:0;
 	position:absolute;
@@ -317,13 +317,13 @@ ul li, ul a li, ul {
 #third-specific:hover > span, #third-specific:focus > span {
 	opacity:1;
 	color:orange;
-	font-size: 18pt;
+	font-size: 18px;
 	bottom:0;
 }
 
 .blank-space {
 	width:100%;
-	height:10pt;
+	height:10px;
 	display:block;
 	position:relative;
 }

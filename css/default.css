@@ -23,15 +23,15 @@ ul, li{
 }
 
 .profile-list {
-	width:150pt;
+	width:150px;
 	height:auto;
-	padding:10pt;
+	padding:10px;
 	position:fixed;
 	background:#fff;
 	z-index:5;
 	display:block;
-	right:20pt;
-	top:150pt;
+	right:20px;
+	top:150px;
 	border: 2px solid #333;
 }
 
@@ -48,7 +48,7 @@ ul, li{
 }
 
 #number-two:hover {
-	width:150pt;
+	width:150px;
 	background:#333;
 	color:#fff;
 }
@@ -85,22 +85,22 @@ ul, li{
 }
 
 #profile-ul li {
-	height:50pt;
-	width:50pt;
+	height:50px;
+	width:50px;
 	border:1px solid #333;
 	display:flex;
 	flex-direction: column;
 	align-items:center;
 	justify-content:center;
 	text-align:center;
-	margin-top:5pt;
-	padding:5pt;
+	margin-top:5px;
+	padding:5px;
 }
 
 .container-small {
-	width: 100pt;
-	height:100pt;
-	padding:3pt;
+	width: 100px;
+	height:100px;
+	padding:3px;
 	border:1px solid black;
 	box-type:border-box;
 	-webkit-box-type:border-box;
@@ -108,9 +108,9 @@ ul, li{
 }
 
 .container-med { 
-	width:200pt;
-	height:200pt;
-	padding:7pt;
+	width:200px;
+	height:200px;
+	padding:7px;
 	border:2px solid black;
 	box-type:border-box;
 	-webkit-box-type:border-box;
@@ -118,10 +118,10 @@ ul, li{
 }
 
 .container-large {
-	width:250pt;
-	height:250pt;
+	width:250px;
+	height:250px;
 	border:3px solid black;
-	padding:10pt;
+	padding:10px;
 	box-type:border-box;
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
@@ -145,8 +145,8 @@ ul, li{
 .break {
 	width:100%;
 	height:5px;
-	margin-top:5pt;
-	margin-bottom:5pt;
+	margin-top:5px;
+	margin-bottom:5px;
 	background:black;
 	position:relative;
 }
@@ -162,11 +162,11 @@ ul, li{
 
 .profile {
 	position:fixed;
-	width:100pt;
-	height:55pt;
+	width:100px;
+	height:55px;
 	border:1px solid black;
-	top:5pt;
-	left:5pt;
+	top:5px;
+	left:5px;
 	color: brown;
 	background:#fff;
 	text-align:center;
@@ -181,7 +181,7 @@ ul, li{
 }
 
 .little-font {
-	font-size: 7pt;
+	font-size: 7px;
 }
 
 #second-specific-inner {
@@ -223,13 +223,13 @@ ul, li{
 #third-specific:hover > span, #third-specific:focus > span {
 	opacity:1;
 	color:orange;
-	font-size: 18pt;
+	font-size: 18px;
 	bottom:0;
 }
 
 .blank-space {
 	width:100%;
-	height:10pt;
+	height:10px;
 	display:block;
 	position:relative;
 }
