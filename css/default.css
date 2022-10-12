@@ -163,7 +163,7 @@ ul, li{
 .profile {
 	position:fixed;
 	width:100pt;
-	height:25pt;
+	height:55pt;
 	border:1px solid black;
 	top:5pt;
 	left:5pt;
@@ -175,6 +175,9 @@ ul, li{
 	box-type:border-box;
 	-webkit-box-type:border-box;
 	-moz-box-type:border-box;
+}
+.profile p::after {
+	content: "Default";
 }
 
 .little-font {

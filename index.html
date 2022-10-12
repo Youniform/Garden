@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>This is 20/20 Vision in CSS</title> 
+<title>2020 Vision in CSS</title> 
  <meta name="description" content="Your gorgeous description"> 
  <meta name="og:title" property="og:title" content="20/20 Vision in CSS"> 
  <meta name="robots" content="index, follow"> 
  <link href="URL" rel="canonical"> 
- <link href="css/default.css" rel="stylesheet" type="text/css" />
+ <link id="css-file" href="css/default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div class="outer-container">
-		<div class="profile">Default</div>
+		<div class="profile"><p></p></div>
 		<div class="header">
 			This is 20/20 Vision in CSS3!!
 		</div>
 		<div class="profile-list">
 			<h4 class="text-center blink">Profile List</h4>
 			<ul id="profile-ul">
-				<a href="/index.html"><li id="default">Default</li></a>
-				<a href="/number-two.html"><li id="number-two">Number Two</li></a>
-				<a href="/ellipses.html"><li id="ellipses">Ellipses</li></a>
-				<a href="#"><li>4th</li></a>
-				<a href="#"><li>5th</li></a>
+				<a><li class="switch" id="default">Default</li></a>
+				<a><li class="switch" id="number-two">Number Two</li></a>
+				<a><li class="switch" id="ellipses">Ellipses</li></a>
 			</ul>
-		</div>
+		</div>		
 		<div class="blank-space"></div>
-		<div class="container-large margin-center">
-			<div class="container-small margin-center">
+		<div class="container-large margin-center" id="specific-biggest">
+			<div class="container-small margin-center" id="specific-biggest-inner">
 				<p> Lorem ipsum dolet solinate ...</p>
 			</div>
 		</div>
@@ -45,4 +43,4 @@
 	</div>
 </body>
 </html>
-
+<script src="./garden.js" type="text/javascript" rel="javascript"></script>

@@ -105,6 +105,10 @@
 	-moz-box-type:border-box;
 }
 
+.profile p::after {
+	content: "Ellipses";
+}
+
 .little-font {
 	font-size: 7pt;
 }
